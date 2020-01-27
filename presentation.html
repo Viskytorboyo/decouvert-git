@@ -6,51 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<style>
-    nav ul {
-        display: flex;
-        justify-content: space-evenly;
-        list-style-type: none;
-        text-transform: uppercase;
-        font-size: 2rem;
-    }
 
-    a {
-        text-decoration: none;
-        color: red;
-    }
-
-    a:hover {
-        color: blue;
-    }
-    div{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    figure{
-        width: 40%;
-    }
-    img{
-        max-width: 100%;
-        height: auto;
-    }
-</style>
 
 <body>
-    <nav id="navigation"></nav>
-    <h1>Page de pésentation</h1>
-    <div>
-        <figure><img src="img/aiolia.jpg" alt="aiolia"></figure>
-        <figure><img src="img/aiolos.jpg" alt="aiolos"></figure>
-        <figure><img src="img/shaka.jpg" alt="shaka"></figure>
-        <figure><img src="img/camus.jpg" alt="camus"></figure>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="navigation"></nav>
+    <h1 class="mt-4 text-primary">Page de pésentation</h1>
+    <div class="row m-4">
+        <figure class="col-3"><img class="img-fluid" src="img/aiolia.jpg" alt="aiolia"></figure class="col-3">
+        <figure class="col-3"><img class="img-fluid" src="img/aiolos.jpg" alt="aiolos"></figure>
+        <figure class="col-3"><img class="img-fluid" src="img/shaka.jpg" alt="shaka"></figure>
+        <figure class="col-3"><img class="img-fluid" src="img/camus.jpg" alt="camus"></figure>
     </div>
-    <div>
-        <figure><img src="img/aldebarran.jpg" alt="aldebarran"></figure>
-        <figure><img src="img/milo.jpg" alt="milo"></figure>
-        <figure><img src="img/saga.jpg" alt="saga"></figure>
-        <figure><img src="img/shura.jpg" alt="shura"></figure>
+    <div class="row m-4">
+        <figure class="col-3"><img class="img-fluid" src="img/aldebarran.jpg" alt="aldebarran"></figure class="col-3">
+        <figure class="col-3"><img class="img-fluid" src="img/milo.jpg" alt="milo"></figure>
+        <figure class="col-3"><img class="img-fluid" src="img/saga.jpg" alt="saga"></figure>
+        <figure class="col-3"><img class="img-fluid" src="img/shura.jpg" alt="shura"></figure>
+    </div>
+    <div class="row m-4">
+        <img src="https://via.placeholder.com/150" alt="" class="col-3">
+        <img src="https://via.placeholder.com/150" alt="" class="col-3">
+        <img src="https://via.placeholder.com/150" alt="" class="col-3">
+        <img src="https://via.placeholder.com/150" alt="" class="col-3">
     </div>
     <script src="menu.js"></script>
 </body>

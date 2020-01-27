@@ -5,37 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<style>
-    input{
-        border:2px solid black;
-        border-radius: 5px;
-        height: 25px;
-    }
-    button{
-        border: 2px solid red;
-        width: 100px;
-        height: 25px;
-        border-radius: 10px;
-        color: white;
-        background-color: blue;
-    }
-    form div{
-        margin: 20px 0;
-    }
-    label{
-        display: block;
-        margin-bottom: 5px;
-    }
-</style>
+
 <body>
-    <nav id="navigation"></nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation"></nav>
     <h1>Nous contacter</h1>
     <form action="">
-        <div><label for="name">Nom : </label><input type="text" name="name" id="name"></div>
-        <div><label for="prenom">Prénom : </label><input type="text" name="prenom" id="prenom"></div>
-        <div><label for="email">Email : </label><input type="text" name="email" id="email"></div>
-        <div><button type="submit">Envoyer</button></div>
+        <div class="form-group col-4 m-2"><label for="name">Nom : </label><input class="form-control" type="text" name="name" id="name"></div>
+        <div class="form-group col-4 m-2"><label for="prenom">Prénom : </label><input class="form-control" type="text" name="prenom" id="prenom"></div>
+        <div class="form-group col-4 m-2"><label for="email">Email : </label><input class="form-control" type="text" name="email" id="email"></div>
+        <div><input class="btn btn-primary m-4" type="button" value="Envoyer"></div>
     </form>
     <script src="menu.js"></script>
 </body>
