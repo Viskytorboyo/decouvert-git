@@ -8,6 +8,7 @@ const menu = `
     <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
     <li class="nav-item"><a class="nav-link" href="presentation.html">Presentation</a></li>
+    <li class="nav-item"><a class="nav-link" href="emmet.html">Emmet</a></li>
 </ul>
 </div>
 `;
