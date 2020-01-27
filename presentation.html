@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+<style>
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: red;
+    }
+
+    a:hover {
+        color: blue;
+    }
+    div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    figure{
+        width: 40%;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+
 <body>
     <nav id="navigation"></nav>
     <h1>Page de pésentation</h1>
+    <div>
+        <figure><img src="img/aiolia.jpg" alt="aiolia"></figure>
+        <figure><img src="img/aiolos.jpg" alt="aiolos"></figure>
+        <figure><img src="img/shaka.jpg" alt="shaka"></figure>
+        <figure><img src="img/camus.jpg" alt="camus"></figure>
+    </div>
+    <div>
+        <figure><img src="img/aldebarran.jpg" alt="aldebarran"></figure>
+        <figure><img src="img/milo.jpg" alt="milo"></figure>
+        <figure><img src="img/saga.jpg" alt="saga"></figure>
+        <figure><img src="img/shura.jpg" alt="shura"></figure>
+    </div>
     <script src="menu.js"></script>
 </body>
+
 </html>
