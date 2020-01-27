@@ -6,13 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+<style>
+    input{
+        border:2px solid black;
+        border-radius: 5px;
+        height: 25px;
+    }
+    button{
+        border: 2px solid red;
+        width: 100px;
+        height: 25px;
+        border-radius: 10px;
+        color: white;
+        background-color: blue;
+    }
+    form div{
+        margin: 20px 0;
+    }
+    label{
+        display: block;
+        margin-bottom: 5px;
+    }
+</style>
 <body>
     <nav id="navigation"></nav>
     <h1>Nous contacter</h1>
     <form action="">
-        <div><label for=""></label><input type="text"></div>
-        <div><label for=""></label><input type="text"></div>
-        <div><label for=""></label><input type="text"></div>
+        <div><label for="name">Nom : </label><input type="text" name="name" id="name"></div>
+        <div><label for="prenom">Prénom : </label><input type="text" name="prenom" id="prenom"></div>
+        <div><label for="email">Email : </label><input type="text" name="email" id="email"></div>
+        <div><button type="submit">Envoyer</button></div>
     </form>
     <script src="menu.js"></script>
 </body>
